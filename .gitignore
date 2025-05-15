@@ -1,0 +1,23 @@
+# Ignore Vivado generated files and directories
+*.jou
+*.log
+*.str
+*.backup
+*.wdb
+*.xpr
+*.xpr~
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.webtalk/
+*.sim/
+*.Xil/
+
+# Ignore simulation output
+*.vcd
+*.wlf
+
+# OS files
+.DS_Store
+Thumbs.db
