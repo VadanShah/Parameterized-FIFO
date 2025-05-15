@@ -8,3 +8,8 @@ Debounce and edge detection using 2-bit synchronizers (wr_sync, rd_sync) for sta
 Separate read (rd_ptr) and write (wr_ptr) pointers for managing memory access.
 Memory implemented as a register array (buf_mem) for simulation, which can be mapped to block RAM on FPGAs.
 Outputs buf_empty, buf_full, and current fifo_counter value.
+## 📊 FIFO Simulation Waveform
+
+Below is the simulation waveform showing FIFO write and read operations:
+
+![FIFO Simulation Waveform](Waveforms/fifo-waveform.png)
